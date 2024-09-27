@@ -1,0 +1,96 @@
+/* General Body Styling with Linear Gradient */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #00c6ff, #89a2c1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container Styling */
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    opacity: 0.95;
+}
+
+/* Form Styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Heading Styling */
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Label Styling */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Input Field Styling */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Message and Link Styling */
+.message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.message a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
