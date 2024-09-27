@@ -15,16 +15,16 @@ body {
 }
 
 .container {
-  max-width: 450px; /* Reduced container width */
+  max-width: 450px; 
   width: 100%;
   background-color: #fff;
-  padding: 20px 20px; /* Reduced padding */
+  padding: 20px 20px; 
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .container .title {
-  font-size: 22px; /* Slightly smaller font */
+  font-size: 22px; 
   font-weight: 500;
   position: relative;
 }
@@ -44,12 +44,12 @@ body {
   display: flex;
   flex-direction: column; /* Vertical layout */
   justify-content: space-between;
-  margin: 15px 0 10px 0; /* Reduced margin */
+  margin: 15px 0 10px 0; 
 }
 
 form .user-details .input-box {
-  margin-bottom: 10px; /* Reduced bottom margin */
-  width: 100%; /* Full width */
+  margin-bottom: 10px; 
+  width: 100%; 
 }
 
 form .input-box span.details {
@@ -59,7 +59,7 @@ form .input-box span.details {
 }
 
 .user-details .input-box input {
-  height: 40px; /* Reduced height */
+  height: 40px;
   width: 100%;
   outline: none;
   font-size: 16px;
@@ -76,8 +76,8 @@ form .input-box span.details {
 }
 
 form .button {
-  height: 40px; /* Reduced button height */
-  margin: 25px 0; /* Reduced margin */
+  height: 40px; 
+  margin: 25px 0; 
 }
 
 form .button input {
@@ -105,7 +105,7 @@ form .button input:hover {
   }
 
   form .user-details .input-box {
-    margin-bottom: 10px; /* Reduced margin */
+    margin-bottom: 10px; 
     width: 100%;
   }
 
